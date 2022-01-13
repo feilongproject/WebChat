@@ -1,0 +1,25 @@
+{
+    "name": "wxbchat",
+    "version": "1.0.0",
+    "description": "基于cf worker与cf KV空间的网页聊天室",
+    "main": "dist/worker.js",
+    "scripts": {
+        "build": "webpack"
+    },
+    "author": "feilongproject",
+    "license": "MIT OR Apache-2.0",
+    "devDependencies": {
+        "@cloudflare/workers-types": "^3.0.0",
+        "@types/cookie": "^0.4.1",
+        "@types/node": "^16.11.12",
+        "@types/service-worker-mock": "^2.0.1",
+        "service-worker-mock": "^2.0.5",
+        "ts-loader": "^9.2.2",
+        "typescript": "^4.3.2",
+        "webpack": "^5.38.1",
+        "webpack-cli": "^4.7.0"
+    },
+    "dependencies": {
+        "cookie": "^0.4.1"
+    }
+}
